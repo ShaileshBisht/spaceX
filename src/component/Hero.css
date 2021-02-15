@@ -54,3 +54,11 @@
   font-weight: 900;
   color: yellow;
 }
+
+.discription_bottom p {
+  font-size: 3rem;
+  font-weight: 600;
+  color: yellow;
+  letter-spacing: 8px;
+  text-shadow: 1px 1px 10px black;
+}

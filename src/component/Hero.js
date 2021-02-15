@@ -17,7 +17,7 @@ function Hero() {
             <p>but we could make it work.</p>
           </div>
           <div className="discription_bottom">
-            <p>elon musk</p>
+            <p>-elon musk-</p>
           </div>
         </div>
       </div>
