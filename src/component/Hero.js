@@ -5,6 +5,7 @@ import ved from "../assets/spaceX6X.mp4";
 function Hero() {
   return (
     <div className="hero">
+      <div className="hero_logo"></div>
       <div className="hero_video">
         <video autoPlay muted loop src={ved}></video>
       </div>
