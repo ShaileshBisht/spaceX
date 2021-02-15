@@ -11,13 +11,13 @@ function Hero() {
       <div className="hero_discrption">
         <div className="discription">
           <div className="discription_top">
-            <h1>
+            <p>
               it's a <span>fixed-upper</span> of a planet
-            </h1>
-            <h1>but we could make it work.</h1>
+            </p>
+            <p>but we could make it work.</p>
           </div>
           <div className="discription_bottom">
-            <h1>elon musk</h1>
+            <p>elon musk</p>
           </div>
         </div>
       </div>
