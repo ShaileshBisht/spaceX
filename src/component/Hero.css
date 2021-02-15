@@ -43,3 +43,13 @@
   color: #fff;
   text-transform: uppercase;
 }
+
+.discription_top p {
+  font-size: 4rem;
+  letter-spacing: 10px;
+}
+
+.discription_top p span {
+  font-weight: 900;
+  color: yellow;
+}
