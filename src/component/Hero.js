@@ -6,7 +6,7 @@ function Hero() {
   return (
     <div className="hero">
       <div className="hero_video">
-        <video autoPlay muted loop src={ved} controls="controls"></video>
+        <video autoPlay muted loop src={ved}></video>
       </div>
     </div>
   );
