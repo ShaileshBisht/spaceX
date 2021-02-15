@@ -8,6 +8,7 @@ function Hero() {
       <div className="hero_video">
         <video autoPlay muted loop src={ved}></video>
       </div>
+      <div className="hero_discrption"></div>
     </div>
   );
 }
