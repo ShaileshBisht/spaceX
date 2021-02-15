@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import ved from "../assets/spaceX6X.mp4";
+import logo from "../assets/spaceLogo.png";
 
 function Hero() {
   return (
