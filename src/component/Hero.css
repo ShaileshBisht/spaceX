@@ -61,6 +61,8 @@
 }
 
 .discription_top p {
+  border-left: 2px solid yellow;
+  border-right: 2px solid yellow;
   font-size: 4rem;
   letter-spacing: 10px;
   text-shadow: 1px 1px 10px black;
