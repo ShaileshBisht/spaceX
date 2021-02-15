@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import ved from "../assets/spaceX4X.mp4";
+import ved from "../assets/spaceX6X.mp4";
 
 function Hero() {
   return (
