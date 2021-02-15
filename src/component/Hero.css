@@ -33,3 +33,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.discription {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
