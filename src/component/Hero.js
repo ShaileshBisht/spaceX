@@ -5,7 +5,7 @@ import ved from "../assets/spaceX4X.mp4";
 function Hero() {
   return (
     <div className="hero">
-      <div className="hero_vedio">
+      <div className="hero_video">
         <video src={ved} controls="controls"></video>
       </div>
     </div>
