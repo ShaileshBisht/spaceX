@@ -1,10 +1,13 @@
 import React from "react";
 import "./Hero.css";
+import ved from "../assets/spaceX4X.mp4";
 
 function Hero() {
   return (
     <div className="hero">
-      <div className="hero_vedio"></div>
+      <div className="hero_vedio">
+        <video src={ved} controls="controls"></video>
+      </div>
     </div>
   );
 }
