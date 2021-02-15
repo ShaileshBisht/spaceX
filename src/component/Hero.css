@@ -40,4 +40,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  color: #fff;
+  text-transform: uppercase;
 }
