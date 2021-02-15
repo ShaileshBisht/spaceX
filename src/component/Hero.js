@@ -9,8 +9,12 @@ function Hero() {
         <video autoPlay muted loop src={ved}></video>
       </div>
       <div className="hero_discrption">
-        <h1>it's a fixed-upper of a planet</h1>
-        <h1>but we could make it work.</h1>
+        <div className="discription">
+          <div className="discription_top">
+            <h1>it's a fixed-upper of a planet</h1>
+            <h1>but we could make it work.</h1>
+          </div>
+        </div>
       </div>
     </div>
   );
