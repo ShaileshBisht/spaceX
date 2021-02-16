@@ -1,0 +1,16 @@
+.appbar_logo {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 10vh;
+  width: 100%;
+  z-index: 3;
+}
+
+.appbar_logo img {
+  object-fit: contain;
+  width: 25%;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  cursor: pointer;
+}
