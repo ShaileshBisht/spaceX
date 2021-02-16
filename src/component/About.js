@@ -5,6 +5,7 @@ function About() {
   return (
     <div className="about">
       <div className="about_discription">
+        <h1>ABOUT</h1>
         <p>
           SpaceX is the innovative and ambitious private aerospace manufacturer
           founded in 2002 by Elon Musk. But SpaceX truly earned its place among
