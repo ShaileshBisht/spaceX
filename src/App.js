@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Hero from "./component/Hero";
 import Appbar from "./component/Appbar";
 
