@@ -16,6 +16,9 @@ function About() {
           skies.
         </p>
       </div>
+      <div className="about_button">
+        <button className="btn about-btn">Back</button>
+      </div>
     </div>
   );
 }

@@ -68,8 +68,8 @@
 .hero_button {
   position: absolute;
   bottom: 0;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
+  margin-right: 20px;
+  margin-bottom: 20px;
   right: 0;
   box-sizing: border-box;
 }
