@@ -101,3 +101,8 @@
   color: #fff;
   border: 3px solid #fff;
 }
+
+.btn::after {
+  content: "";
+  background-color: #fff;
+}
