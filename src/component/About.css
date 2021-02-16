@@ -13,3 +13,10 @@
   align-items: center;
   justify-content: center;
 }
+
+.about_discription {
+  padding: 1rem;
+  max-width: 110rem;
+  display: grid;
+  grid-template-columns: minmax(400px, 1fr);
+}
