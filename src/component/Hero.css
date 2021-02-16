@@ -88,9 +88,11 @@
   margin-right: 2rem;
   margin-bottom: 2rem;
   right: 0;
+  box-sizing: border-box;
 }
 
 .btn {
+  box-sizing: border-box;
   cursor: pointer;
   position: relative;
   padding: 1.5rem 2.5rem;
@@ -99,7 +101,7 @@
   text-transform: uppercase;
   background-color: transparent;
   color: #fff;
-  border: 3px solid #fff;
+  border: 2px solid #fff;
   overflow: hidden;
   transition: all 0.2s ease-in-out;
 }
@@ -123,6 +125,6 @@
 
 .btn:hover {
   color: yellow;
-  border: 3px solid yellow;
+  border: 2px solid yellow;
   letter-spacing: 0.5rem;
 }
