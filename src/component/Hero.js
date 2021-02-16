@@ -6,9 +6,9 @@ import logo from "../assets/spaceLogo.png";
 function Hero() {
   return (
     <div className="hero">
-      <div className="hero_logo">
+      {/* <div className="hero_logo">
         <img src={logo} alt="spaceX" />
-      </div>
+      </div> */}
       <div className="hero_video">
         <video autoPlay muted loop src={ved}></video>
       </div>
