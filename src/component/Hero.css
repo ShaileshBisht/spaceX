@@ -7,8 +7,8 @@
   position: absolute;
   top: 0%;
   left: 0%;
-  margin-top: 30px;
-  margin-left: 30px;
+  margin-top: 3rem;
+  margin-left: 3rem;
   width: 20%;
   z-index: 3;
 }
@@ -65,8 +65,8 @@
   border-left: 2px solid yellow;
   border-right: 2px solid yellow;
   font-size: 4rem;
-  letter-spacing: 10px;
-  text-shadow: 1px 1px 10px black;
+  letter-spacing: 1rem;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
 }
 
 .discription_top p span {
@@ -78,6 +78,6 @@
   font-size: 3rem;
   font-weight: 600;
   color: yellow;
-  letter-spacing: 8px;
-  text-shadow: 1px 1px 10px black;
+  letter-spacing: 0.8rem;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
 }
