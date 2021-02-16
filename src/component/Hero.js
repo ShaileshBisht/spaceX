@@ -27,6 +27,7 @@ function Hero() {
       </div>
       <div className="hero_button">
         <button className="btn hero-btn">explore</button>
+        <button className="btn btn-about">about</button>
       </div>
     </div>
   );
