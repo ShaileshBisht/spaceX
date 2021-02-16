@@ -4,10 +4,10 @@
   height: 100vh;
   background-image: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.9),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.1)
     ),
-    url("../assets/images/about1.jpg");
+    url("../assets/images/about3.jpg");
   background-size: cover;
   background-position: center center;
   display: flex;
