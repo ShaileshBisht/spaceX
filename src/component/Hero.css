@@ -91,6 +91,8 @@
 }
 
 .btn {
+  cursor: pointer;
+  position: relative;
   padding: 1.5rem 2.5rem;
   font-size: 1.5rem;
   font-weight: 700;
