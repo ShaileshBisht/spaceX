@@ -81,3 +81,9 @@
   letter-spacing: 0.8rem;
   text-shadow: 0.1rem 0.1rem 0.1rem black;
 }
+
+.hero_button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
