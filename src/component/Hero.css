@@ -101,6 +101,7 @@
   color: #fff;
   border: 3px solid #fff;
   overflow: hidden;
+  transition: all 0.2s ease-in-out;
 }
 
 .btn::after {
@@ -113,6 +114,7 @@
   height: 100%;
   background-color: #fff;
   transform: translateY(6rem);
+  transition: all 0.5s ease-in-out;
 }
 
 .btn:hover::after {
@@ -122,4 +124,5 @@
 .btn:hover {
   color: yellow;
   border: 3px solid yellow;
+  letter-spacing: 0.5rem;
 }
