@@ -7,8 +7,17 @@ import Appbar from "./component/Appbar";
 function App() {
   return (
     <div className="app">
-      <Appbar />
-      <Hero />
+      <Router>
+        <Appbar />
+        <Switch>
+          {/* <Route path="/about">
+            <About />
+          </Route> */}
+          <Route exact path="/">
+            <Hero />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
