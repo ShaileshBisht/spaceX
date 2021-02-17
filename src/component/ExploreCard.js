@@ -5,7 +5,10 @@ import exp1 from "../assets/images/explore1.jpg";
 function ExploreCard() {
   return (
     <div className="exploreCard">
-      <img className="exploreCard_img" src={exp1} alt="" />
+      <div className="exploreCard_top">
+        <img className="exploreCard_img" src={exp1} alt="" />
+      </div>
+
       <div className="ExploreCard_discription">
         <p>Mission</p>
         <p>
