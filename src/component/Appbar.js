@@ -1,12 +1,15 @@
 import React from "react";
 import "./Appbar.css";
 import logo from "../assets/spaceLogo.png";
+import { useHistory } from "react-router-dom";
 
 function Appbar() {
+  const history = useHistory();
+
   return (
     <div className="appbar">
       <div className="appbar_logo">
-        <img src={logo} alt="spaceX" />
+        <img onClick={() => history.push("/")} src={logo} alt="spaceX" />
       </div>
     </div>
   );
