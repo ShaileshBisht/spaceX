@@ -1,10 +1,11 @@
 import React from "react";
 import "./ExploreCard.css";
+import exp1 from "../assets/images/explore1.jpg";
 
 function ExploreCard() {
   return (
     <div className="exploreCard">
-      <img src="" alt="" />
+      <img className="exploreCard_img" src={exp1} alt="" />
       <div className="ExploreCard_discription">
         <h1>Mission</h1>
         <p>
