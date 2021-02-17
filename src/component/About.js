@@ -1,7 +1,10 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import "./About.css";
 
 function About() {
+  const history = useHistory();
+
   return (
     <div className="about">
       <div className="about_discription">
@@ -17,7 +20,9 @@ function About() {
         </p>
       </div>
       <div className="about_button">
-        <button className="btn about-btn">Back</button>
+        <button onClick={() => history.push("/")} className="btn about-btn">
+          Back
+        </button>
       </div>
     </div>
   );
