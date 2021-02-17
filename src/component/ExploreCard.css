@@ -50,3 +50,7 @@
   color: #000;
   font-weight: 900;
 }
+
+.explore-btn:hover {
+  background-color: yellow;
+}
