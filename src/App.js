@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Hero from "./component/Hero";
 import Appbar from "./component/Appbar";
 import About from "./component/About";
+import Explore from "./component/Explore";
 
 function App() {
   return (
