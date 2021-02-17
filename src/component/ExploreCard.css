@@ -5,7 +5,7 @@
 }
 
 .exploreCard_top {
-  clip-path: polygon(50% 0%, 100% 0, 100% 100%, 62% 77%, 86% 100%, 0 100%, 0 0);
+  clip-path: polygon(100% 0, 100% 79%, 72% 100%, 0 100%, 0 0);
 }
 
 .exploreCard_img {
