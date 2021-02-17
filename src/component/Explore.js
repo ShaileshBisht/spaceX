@@ -8,6 +8,7 @@ function Explore() {
       <div className="explore_section">
         <div className="explore_top">
           <p>Explore</p>
+          <button className="btn explore-back">back</button>
         </div>
         <div className="explore_bottom">
           <ExploreCard />
