@@ -10,7 +10,7 @@ function ExploreCard() {
       </div>
 
       <div className="ExploreCard_discription">
-        <p>Mission</p>
+        <h1>Mission</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam beatae
           eius veritatis corporis architecto quas quae expedita ipsa iusto
