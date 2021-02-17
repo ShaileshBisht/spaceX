@@ -4,7 +4,10 @@ import "./Explore.css";
 function Explore() {
   return (
     <div className="explore">
-      <h1>i am explore</h1>
+      <div className="explore_top">
+        <div className="explore_top-left"></div>
+        <div className="explore_top-right"></div>
+      </div>
     </div>
   );
 }
