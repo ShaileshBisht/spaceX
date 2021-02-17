@@ -1,5 +1,6 @@
 import React from "react";
 import "./Explore.css";
+import ExploreCard from "./ExploreCard";
 
 function Explore() {
   return (
@@ -7,7 +8,9 @@ function Explore() {
       <div className="explore_top">
         <p>Explore</p>
       </div>
-      <div className="explore_bottom"></div>
+      <div className="explore_bottom">
+        <ExploreCard />
+      </div>
     </div>
   );
 }
