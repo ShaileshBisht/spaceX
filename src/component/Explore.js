@@ -5,8 +5,7 @@ function Explore() {
   return (
     <div className="explore">
       <div className="explore_top">
-        <div className="explore_top-left"></div>
-        <div className="explore_top-right"></div>
+        <p>Explore</p>
       </div>
     </div>
   );
