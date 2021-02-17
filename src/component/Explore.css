@@ -1,7 +1,14 @@
-.explore_top {
+.explore {
+}
+
+.explore_section {
   max-width: 1100px;
   margin: 0 auto;
-  margin-top: 100px;
+}
+
+.explore_top {
+  margin: 0 auto;
+  padding-top: 100px;
 }
 
 .explore_top p {
@@ -12,7 +19,6 @@
 }
 
 .explore_bottom {
-  max-width: 1100px;
   margin: 0 auto;
   margin-top: 3%;
   display: grid;
