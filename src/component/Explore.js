@@ -7,6 +7,7 @@ function Explore() {
       <div className="explore_top">
         <p>Explore</p>
       </div>
+      <div className="explore_bottom"></div>
     </div>
   );
 }
