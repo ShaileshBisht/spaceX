@@ -1,8 +1,11 @@
 import React from "react";
 import "./Hero.css";
 import ved from "../assets/spaceX6X.mp4";
+import { useHistory } from "react-router-dom";
 
 function Hero() {
+  const history = useHistory();
+
   return (
     <div className="hero">
       <div className="hero_video">
@@ -23,7 +26,12 @@ function Hero() {
       </div>
       <div className="hero_button">
         <button className="btn hero-btn">explore</button>
-        <button className="btn btn-about">about</button>
+        <button
+          onClick={() => history.push("/about")}
+          className="btn btn-about"
+        >
+          about
+        </button>
       </div>
     </div>
   );
