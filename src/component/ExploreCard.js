@@ -7,13 +7,14 @@ function ExploreCard() {
     <div className="exploreCard">
       <img className="exploreCard_img" src={exp1} alt="" />
       <div className="ExploreCard_discription">
-        <h1>Mission</h1>
+        <p>Mission</p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam beatae
           eius veritatis corporis architecto quas quae expedita ipsa iusto
           voluptatum repellendus, dignissimos hic harum aperiam illum suscipit
           similique ipsum quis?
         </p>
+        <button>learn more</button>
       </div>
     </div>
   );
