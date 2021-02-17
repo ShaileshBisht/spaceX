@@ -12,6 +12,9 @@ function App() {
       <Router>
         <Appbar />
         <Switch>
+          <Route path="/explore">
+            <Explore />
+          </Route>
           <Route path="/about">
             <About />
           </Route>
