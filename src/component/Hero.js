@@ -25,7 +25,12 @@ function Hero() {
         </div>
       </div>
       <div className="hero_button">
-        <button className="btn hero-btn">explore</button>
+        <button
+          onClick={() => history.push("/explore")}
+          className="btn hero-btn"
+        >
+          explore
+        </button>
         <button
           onClick={() => history.push("/about")}
           className="btn btn-about"
