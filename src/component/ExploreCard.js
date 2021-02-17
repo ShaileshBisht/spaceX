@@ -14,7 +14,7 @@ function ExploreCard() {
           voluptatum repellendus, dignissimos hic harum aperiam illum suscipit
           similique ipsum quis?
         </p>
-        <button>learn more</button>
+        <button className="btn explore-btn">learn more</button>
       </div>
     </div>
   );

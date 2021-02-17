@@ -10,6 +10,11 @@ function Explore() {
       </div>
       <div className="explore_bottom">
         <ExploreCard />
+        <ExploreCard />
+        <ExploreCard />
+        <ExploreCard />
+        <ExploreCard />
+        <ExploreCard />
       </div>
     </div>
   );
