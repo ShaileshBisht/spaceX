@@ -12,4 +12,12 @@
 .ExploreCard_discription h1 {
   letter-spacing: 2px;
   margin: 10px 0;
+  font-weight: 700;
+}
+
+.ExploreCard_discription p {
+  letter-spacing: 1px;
+  margin: 10px 0;
+  font-weight: 500;
+  font-size: 1.5rem;
 }
