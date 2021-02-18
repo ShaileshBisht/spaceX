@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./ExploreCard.css";
 import exp1 from "../assets/images/explore7.jpg";
 
 function ExploreCard({ classs, title, img }) {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 956);
+
+  useEffect(() => {
+    window.addEventListener(
+      "resize",
+      () => {
+        const ismobile = window.innerWidth < 956;
+        if (ismobile !== isMobile) setIsMobile(ismobile);
+      },
+      false
+    );
+  }, [isMobile]);
+  //exploreCard ${classs}
   return (
-    <div className={`exploreCard ${classs}`}>
+    <div className={`${!isMobile ? `${classs} exploreCard` : "exploreCard"}`}>
       <div className="exploreCard_top">
         <img className="exploreCard_img" src={img} alt="" />
       </div>
