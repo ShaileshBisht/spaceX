@@ -2,6 +2,7 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 import "./Explore.css";
 import ExploreCard from "./ExploreCard";
+import cardDetails from "../exploreCardDetails";
 
 function Explore() {
   const history = useHistory();
