@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./ExploreCard.css";
-import exp1 from "../assets/images/explore7.jpg";
 
 function ExploreCard({ classs, title, img }) {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 956);
