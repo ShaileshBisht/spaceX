@@ -4,7 +4,7 @@ import img3 from "./assets/images/explore5.jpg";
 import img4 from "./assets/images/explore6.jpg";
 import img5 from "./assets/images/explore7.jpg";
 
-export const cardDetails = [
+const cardDetails = [
   {
     id: 1,
     class: "card-1",
@@ -36,3 +36,5 @@ export const cardDetails = [
     title: "Cores",
   },
 ];
+
+export default cardDetails;
