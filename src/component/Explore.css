@@ -40,6 +40,6 @@
 
 @media only screen and (max-width: 964px) {
   .explore_bottom {
-    grid-template-rows: auto;
+    grid-template-rows: auto auto;
   }
 }
