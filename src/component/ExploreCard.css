@@ -32,7 +32,7 @@
   letter-spacing: 2px;
   margin: 10px 0;
   font-weight: 700;
-  padding: 0 10px;
+  /* padding: 0 10px; */
   text-align: left;
 }
 
@@ -40,6 +40,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 10px;
   margin-top: 10px;
 }
 
