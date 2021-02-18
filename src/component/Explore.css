@@ -32,6 +32,7 @@
   margin-top: 3%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: 350px 90px 440px 90px;
   /* grid-template-columns: repeat(3, 1fr); */
   gap: 30px;
   grid-auto-flow: dense;
