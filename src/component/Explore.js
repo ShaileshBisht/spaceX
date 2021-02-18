@@ -20,12 +20,14 @@ function Explore() {
           </button>
         </div>
         <div className="explore_bottom">
-          <ExploreCard />
-          <ExploreCard />
-          <ExploreCard />
-          <ExploreCard />
-          <ExploreCard />
-          <ExploreCard />
+          {cardDetails.map((card) => (
+            <ExploreCard
+              key={card.id}
+              class={card.class}
+              title={card.title}
+              img={card.img}
+            />
+          ))}
         </div>
       </div>
     </div>
