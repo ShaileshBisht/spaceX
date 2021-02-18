@@ -29,4 +29,10 @@ export const cardDetails = [
     img: `${img4}`,
     title: "Payload",
   },
+  {
+    id: 5,
+    class: "card-5",
+    img: `${img5}`,
+    title: "Cores",
+  },
 ];
