@@ -12,6 +12,10 @@
   box-shadow: 5px 5px 10px #888888;
 }
 
+.card-1 {
+  grid-column: span 2;
+}
+
 .exploreCard_top {
   clip-path: polygon(100% 0, 100% 79%, 72% 100%, 0 100%, 0 0);
   overflow: hidden;
