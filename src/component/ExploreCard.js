@@ -10,14 +10,17 @@ function ExploreCard() {
       </div>
 
       <div className="ExploreCard_discription">
-        <h1>Mission</h1>
+        <div className="exploreCard_discription-top">
+          <h1>Mission</h1>
+          <button className="btn explore-btn">learn more</button>
+        </div>
+
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam beatae
           eius veritatis corporis architecto quas quae expedita ipsa iusto
           voluptatum repellendus, dignissimos hic harum aperiam illum suscipit
           similique ipsum quis?
         </p>
-        <button className="btn explore-btn">learn more</button>
       </div>
     </div>
   );
