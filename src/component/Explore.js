@@ -23,7 +23,7 @@ function Explore() {
           {cardDetails.map((card) => (
             <ExploreCard
               key={card.id}
-              class={card.class}
+              classs={card.class}
               title={card.title}
               img={card.img}
             />

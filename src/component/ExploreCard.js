@@ -2,16 +2,16 @@ import React from "react";
 import "./ExploreCard.css";
 import exp1 from "../assets/images/explore7.jpg";
 
-function ExploreCard() {
+function ExploreCard({ classs, title, img }) {
   return (
-    <div className="exploreCard">
+    <div className={`exploreCard ${classs}`}>
       <div className="exploreCard_top">
-        <img className="exploreCard_img" src={exp1} alt="" />
+        <img className="exploreCard_img" src={img} alt="" />
       </div>
 
       <div className="ExploreCard_discription">
         <div className="exploreCard_discription-top">
-          <h1>Mission</h1>
+          <h1>{title}</h1>
           <button className="btn explore-btn">learn more</button>
         </div>
 
