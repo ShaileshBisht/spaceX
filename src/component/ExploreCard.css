@@ -28,12 +28,18 @@
   transition: transform 0.4s ease-in-out;
 }
 
-.ExploreCard_discription h1 {
+.ExploreCard_discription .exploreCard_discription-top h1 {
   letter-spacing: 2px;
   margin: 10px 0;
   font-weight: 700;
   padding: 0 10px;
   text-align: left;
+}
+
+.exploreCard_discription-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .ExploreCard_discription p {
